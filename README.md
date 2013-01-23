@@ -179,6 +179,20 @@ To activate the theme for all future shell sessions, copy or link that file to
 `~/.dir_colors`, and include the above command in your `~/.profile` (for bash)
 or `~/.zshrc` (for zsh).
 
+### Antigen Instructions
+
+In order to use dircolors-solarized with the [antigen repository], simply load it:
+
+    antigen-bundle fladi/dircolors-solarized
+
+This defaults to using the "256dark" theme. To use a different theme, specify its name after the repository:
+
+    antigen-bundle fladi/dircolors-solarized ansi-dark
+    antigen-bundle fladi/dircolors-solarized ansi-light
+    antigen-bundle fladi/dircolors-solarized ansi-universal
+
+[antigen repository]:    https://github.com/zsh-users/antigen
+
 ### Additional Instructions for 256-color Solarized Themes, e.g. "256dark"
 
 For the 256-color Solarized dircolors themes, such as "256dark", you need a 256-color
