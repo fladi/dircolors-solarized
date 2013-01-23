@@ -1,4 +1,4 @@
-eval $(dircolors $location/dircolors.256dark)
+eval $(dircolors $location/../dircolors.ansi-universal)
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 
 # List direcory contents
